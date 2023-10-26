@@ -113,7 +113,7 @@ const person = {
 delete person.phoneno
 console.log(person)
 
-console.log(person.vehicles.hasOwnProperty('bike'))
+console.log(person.hasOwnProperty('bike'))
 console.log(person.hasOwnProperty('house'))
 
 console.log("Mr"+ " " + person.name + " " + "travels by" + " " + Object.keys(person.vehicles)[2] + " " + "called Air123")
